@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #040308, #463b85);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-3 {
+    width: 20%;
+    padding: 0 15px;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+.box {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.inner-box {
+    height: 100px;
+    background-color: azure;
+}
+
+.inner-box.color-box {
+    background-color: yellow;
+}
+
+.task2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.box-task2 {
+    width: 350px;
+    height: 280px;
+    background-color: antiquewhite;
+    margin-bottom: 40px;
+
+}
+
+.box-task2.color-red {
+    background-color: rgba(220, 0, 0, 1);
+}
+
+.box-task2.color-blue {
+    background-color: rgb(0, 136, 220);
+}
+
+.box-task2.oval-task {
+    border-radius: 180px 5px 180px 5px;
+}
+
+.btn-task2-red {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.btn-task2-blue {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 136, 220);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.btn-task2-radius {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 220, 77);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.text {
+    width: 30%;
+    height: 35px;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.modal-btn {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.btn-go {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 220, 77);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.btn-text {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 220, 77);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.number {
+    width: 30%;
+    height: 35px;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.numb-btn {
+    padding: 10px 0;
+    width: 110px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: burlywood;
+}
